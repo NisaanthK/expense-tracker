@@ -1,0 +1,86 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #1756df;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.expense-item {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.expense-name {
+  font-weight: bold;
+  color: white;
+}
+
+.expense-price,
+.expense-markup {
+  color: white;
+}
+
+.expense-markup-amount {
+  color:#1756df
+}
+
+.expense-total {
+  font-weight: bold;
+}
+.delete-button {
+  margin-left: 10px;
+  color: white;
+  background-color: #1756df;
+}
+
+.total-price {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
