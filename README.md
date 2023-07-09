@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+1. To run the project locally, we need to make sure that Node and npm is installed in your system.
+in the terminal and run the command 'npm install' to start the local server. The project will run on your local machine.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. The overall structure of the code consists of components and state management using React. The main component is "ExpenseTracker", which handles the state for managing expenses and rendering the user interface. The input fields, expense lists, and total cost are all rendered within this component.
 
-## Available Scripts
+3. State in the application is managed using the 'useState' hook from React or even Redux, a state management libary. Why 'useState' ? It allows us to initialize and update the state variables and it is simple and efficient way to manage state with the functional components.
 
-In the project directory, you can run:
+4. 'The bignumber.js' library is used for calculations to handle decimal numbers with high precision. It is used for financial and situations where accurate decimal calculations are required. Here, in expense tracker, bignumber.js is used to calculate the price and the percentage in a precise manner.
 
-### `npm start`
+5. The user interface should be simple and easy to use when a user wants to access the interface it should be easily understandable which is reliable. Those expenses should be listed as clear and in a organized format. Total cost should be displayed at bottom for easy reference. Mainly, it makes the user to add and track the expenses adequately.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. Tasks:
+    - To create a form for user to enter the expense details
+    - To manage and  display the list of expenes with calculated prices
+    - To implement the function of adding and deleting the expenses
+    - Using bignumber.js for precise calculations
+    - Then To design a clean User Interface in a simple way as mentioned
