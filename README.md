@@ -1,5 +1,5 @@
 1. To run the project locally, we need to make sure that Node and npm is installed in your system.
-in the terminal and run the command 'npm install' to start the local server. The project will run on your local machine.
+in the terminal and run the command **npm start** to start the local server. The project will run on your local machine and can view in website.
 
 2. The overall structure of the code consists of components and state management using React. The main component is "ExpenseTracker", which handles the state for managing expenses and rendering the user interface. The input fields, expense lists, and total cost are all rendered within this component.
 
