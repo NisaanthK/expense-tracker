@@ -31,9 +31,9 @@ npm install
 npm start
 
 
-🧠 Purpose
+5. 🧠 Purpose
 This project showcases budgeting logic in a film production scenario. It helps producers manage costs in real-time while planning actor casting.
 
-📄 License
+6. 📄 License
 This project is for educational and demonstration purposes.
 
